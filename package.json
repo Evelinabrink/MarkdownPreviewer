@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Evelinabrink/MarkdownPreviewer/issues"
   },
-  "homepage": "https://github.com/Evelinabrink/MarkdownPreviewer#readme"
+  "homepage": "https://github.com/Evelinabrink/MarkdownPreviewer#readme",
+  "dependencies": {
+    "marked": "^0.4.0"
+  }
 }
