@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Markdown Previewer</title>
 </head>
 <body>
+    <div class="container">
+        <div class="editor">
+            <div class="header">
+                <h3 class="title">Editor</h3>
+            </div>
+            <div class="text">
+                <textarea name="textarea" id="textarea"></textarea>
+            </div>
+        </div>
+        <div class="previewDiv">
+            <div class="header">
+                <h3 class="title">Previewer</h3>
+            </div>
+            <div class="previewer" id="previewer">
+            </div>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>

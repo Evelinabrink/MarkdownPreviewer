@@ -1,0 +1,5 @@
+// to do: 
+
+- Grab the value of the textarea
+- append to previewer
+
