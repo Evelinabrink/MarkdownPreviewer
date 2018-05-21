@@ -1,7 +1,7 @@
 /* MY CODE BELOW */
 
 body {
-    background-color: grey;
+    background-color: #455A64;
     margin: 0;
 }
 
@@ -10,11 +10,12 @@ body {
     background-color: #455A64;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin: 0 auto;
 }
 
 .editor {
     background-color: purple;
-    border: solid black 3px;
+    border: solid black 1px;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 20px;
@@ -34,7 +35,6 @@ body {
 
 .text {
     height: 280px;
-    overflow: scroll;
 }
 
 #textarea {
@@ -43,12 +43,13 @@ body {
     height: 100%;
     resize: none;
     background-color: #FFFFFF;
+    overflow: scroll;
 }
 
 .previewDiv {
     margin-top: 30px;
     background-color: #CFD8DC;
-    border: solid black 3px;
+    border: solid black 1px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -60,6 +61,7 @@ body {
     overflow: scroll;
     overflow-wrap: break-word;
     box-sizing: border-box;
+    color: rgb(82, 91, 100);
 }
 
 
