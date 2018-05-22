@@ -1,6 +1,6 @@
 // to do: 
-
-read this:
-https://www.kirupa.com/snippets/move_element_to_click_position.htm
-
-
+- resizing windows
+- add media queries // responsive design
+- fix issue with z-index of editor window
+- add about icon with markdown cheatsheet
+- update readme file with photo and description of project
