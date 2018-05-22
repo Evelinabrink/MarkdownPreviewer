@@ -1,7 +1,8 @@
 // to do: 
 - clean up drag and drop code (into one function?)
 - resizing windows
+- z-index issue
+- add animated cursor in editor window
 - add media queries // responsive design
-- fix issue with z-index of editor window
 - add about icon with markdown cheatsheet
 - update readme file with photo and description of project
