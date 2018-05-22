@@ -3,6 +3,5 @@
 - resizing windows
 - z-index issue
 - add animated cursor in editor window
-- add media queries // responsive design
 - add about icon with markdown cheatsheet
 - update readme file with photo and description of project

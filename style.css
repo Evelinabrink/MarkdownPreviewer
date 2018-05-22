@@ -70,5 +70,12 @@ body {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
+@media (max-width: 900px) {
+    .previewDiv {
+        top: 500px;
+        left: 70px;
+    }
+}
+
 
 
