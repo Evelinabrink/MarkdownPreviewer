@@ -24,7 +24,6 @@ body {
 .header {
     background-color: #03A9F4;
     border-bottom: solid 1px grey;
-    font-family: 'Lobster', cursive;
     padding: 5px;
     cursor: pointer;
 }
@@ -34,6 +33,7 @@ body {
     font-size: 20px;
     color: white;
     margin: 0;
+    font-family: 'Lobster', cursive;
 }
 
 .text {
@@ -77,5 +77,35 @@ body {
     }
 }
 
+.icon {
+    width: 50px;
+    padding-right: 20px;
+    float: right;
+}
 
+.aboutDiv {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin: 0 auto;
+    opacity: 0.9;
+    box-shadow: 10px 10px 17px 4px rgba(0,0,0,0.29);
+    display: none;
+}
+
+#cross {
+    width: 20px;
+    float: right;
+    position: relative;
+    right: 5px;
+    top: 5px;
+}
+
+.about-title {
+    color: #03A9F4;
+}
+
+.hidden {
+    
+}
 

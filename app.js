@@ -4,6 +4,8 @@ let editorHeader = document.querySelector('#editorHeader');
 let editorDiv = document.querySelector('#editor');
 let previewHeader = document.querySelector('#previewHeader');
 let previewDiv = document.querySelector('#previewDiv');
+let icon = document.querySelector('#icon');
+let container = document.querySelector('.container');
 
 let dragEd = false;
 let dragPreview = false;
@@ -46,3 +48,18 @@ window.addEventListener('mousemove', function (event) {
         previewDiv.style.top = event.clientY + 'px';
     }
 })
+
+// when clicking the icon
+icon.addEventListener('click', function (event){
+    let aboutDiv = document.querySelector('#aboutDiv');
+    aboutDiv.style.display = 'block';
+    console.dir(aboutDiv);
+
+    let cross = document.querySelector('#cross');
+
+    // close info window
+    cross.addEventListener('click', function (e) {
+        aboutDiv.style.display = 'none';
+    });
+});
+
