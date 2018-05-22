@@ -15,12 +15,11 @@ textarea.addEventListener('input', function (event) {
 // drag and drop the editor window
 editorHeader.addEventListener('mousedown', function (event) {
     dragEd = true;
-    editorDiv.style.zIndex = 1;
+    editorDiv.style.zIndex += 1;
 })
 
 window.addEventListener('mouseup', function (){
     dragEd = false;
-    editorDiv.style.zIndex = 0;
 })
 
 window.addEventListener('mousemove', function (event) {
@@ -34,12 +33,11 @@ window.addEventListener('mousemove', function (event) {
 // drag and drop the preview window
 previewHeader.addEventListener('mousedown', function (event) {
     dragPreview = true;
-    previewDiv.style.zIndex = 1;
+    previewDiv.style.zIndex += 1;
 })
 
 window.addEventListener('mouseup', function (){
     dragPreview = false;
-    previewDiv.style.zIndex = 0;
 })
 
 window.addEventListener('mousemove', function (event) {
