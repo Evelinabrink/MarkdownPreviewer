@@ -1,4 +1,5 @@
 // to do: 
+- clean up drag and drop code (into one function?)
 - resizing windows
 - add media queries // responsive design
 - fix issue with z-index of editor window
