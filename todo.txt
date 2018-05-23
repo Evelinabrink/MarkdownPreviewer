@@ -1,5 +1,9 @@
 // to do: 
-- clean up drag and drop code (into one function? use draggable instead of mousedown?)
+- clean up drag and drop code - use a library(ie, interact js) 
+instead of mousedown
 - resizing windows
 - z-index issue
 - update readme file with photo and description of project
+- add relevant info text to the info window
+- add a title "Markdown Previewer" at the top of the page
+- make header of windows transparent when dragging
