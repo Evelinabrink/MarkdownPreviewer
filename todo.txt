@@ -1,6 +1,5 @@
 // to do: 
-- clean up drag and drop code (into one function?)
+- clean up drag and drop code (into one function? use draggable instead of mousedown?)
 - resizing windows
 - z-index issue
-- if opening several info windows stack up windows
 - update readme file with photo and description of project

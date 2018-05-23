@@ -70,17 +70,31 @@ body {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
+.icon {
+    width: 50px;
+}
+
 @media (max-width: 900px) {
     .previewDiv {
         top: 500px;
         left: 70px;
     }
+
+    .icon {
+        padding-right: 20px;
+        float: right;
+    }
 }
 
-.icon {
-    width: 50px;
-    padding-right: 20px;
-    float: right;
+
+
+@media (min-width: 900px) {
+    .icon {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+
+    }
 }
 
 .aboutDiv {
@@ -91,6 +105,7 @@ body {
     opacity: 0.9;
     box-shadow: 10px 10px 17px 4px rgba(0,0,0,0.29);
     display: none;
+    z-index: 99999;
 }
 
 #cross {
@@ -103,9 +118,5 @@ body {
 
 .about-title {
     color: #03A9F4;
-}
-
-.hidden {
-    
 }
 
